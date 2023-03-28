@@ -4,6 +4,6 @@ WORKDIR /usr
 
 ADD . /usr
 
-RUN pip3 install openai -t ./
+RUN pip install openai flask requests -t ./
 
 CMD [ "python", "index.py" ]

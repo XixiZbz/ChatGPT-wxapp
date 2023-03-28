@@ -6,4 +6,4 @@ ADD . /usr
 
 RUN pip3 install openai -t ./
 
-CMD [ "python3", "index.py" ]
+CMD [ "python", "index.py" ]

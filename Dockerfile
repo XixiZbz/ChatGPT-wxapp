@@ -6,4 +6,5 @@ ADD . /usr
 
 RUN pip install openai flask requests -t ./
 
+
 CMD [ "python", "index.py" ]
